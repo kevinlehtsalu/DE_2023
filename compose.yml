@@ -11,7 +11,6 @@ services:
     ports:
       - "5432:5432"
     volumes:
-#      - ./data:/var/lib/postgresql/data
       - ./init:/docker-entrypoint-initdb.d
       - postgres_data:/var/lib/postgresql/data
 
@@ -24,5 +23,23 @@ services:
     ports:
       - "5050:80"
 
+  neo4j:
+    image: neo4j:latest
+    container_name: my_neo4j
+    environment:
+      NEO4J_AUTH: neo4j/test
+    ports:
+      - "7474:7474"  # HTTP
+      - "7687:7687"  # Bolt
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+      - neo4j_import:/var/lib/neo4j/import
+      - neo4j_plugins:/plugins
+
 volumes:
   postgres_data:
+  neo4j_data:
+  neo4j_logs:
+  neo4j_import:
+  neo4j_plugins:

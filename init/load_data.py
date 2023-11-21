@@ -105,7 +105,7 @@ except psycopg2.Error as e:
 
 # Read and process the JSON file
 try:
-    with open('C:\\Users\\Kevin\\OneDrive\\Documents\\GitHub\\data_engineering_2023\\Project\\archive\\data.json', 'r',
+    with open('C:\\Users\\Kevin\\OneDrive\\Documents\\GitHub\\DE_2023\\archive\\data.json', 'r',
               encoding='utf-8') as file:
         for line in file:
             try:
