@@ -30,7 +30,8 @@ CREATE TABLE IF NOT EXISTS papers (
     doi TEXT,
     report_no VARCHAR(255),
     abstract TEXT,
-    update_date DATE
+    update_date DATE,
+    citation_count INT DEFAULT 0
 );
 
 -- Junction Table for Papers and Authors Many-to-Many Relationship
