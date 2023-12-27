@@ -30,7 +30,7 @@ def update_citation_counts():
         cur = conn.cursor()
 
         # Fetch a limited number of papers along with their DOIs
-        cur.execute("SELECT paper_id, doi FROM papers LIMIT 5")
+        cur.execute("SELECT paper_id, doi FROM papers LIMIT 30")
         papers = cur.fetchall()
 
         # Update each paper with citation count
