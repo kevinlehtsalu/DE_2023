@@ -1,7 +1,7 @@
 import json
 import psycopg2
 from psycopg2.extras import execute_values
-from airflow.models import Variable
+#from airflow.models import Variable
 
 # Function to insert authors and return their IDs
 def insert_authors(cursor, authors_parsed):
@@ -105,7 +105,7 @@ except psycopg2.Error as e:
 
 # Read and process the JSON file
 try:
-    with open('archive/data.json', 'r',
+    with open('C:\\Users\\Kevin\\OneDrive\\Documents\\GitHub\\DE_2023\\archive\\data.json', 'r',
               encoding='utf-8') as file:
         for line in file:
             try:
@@ -117,40 +117,6 @@ try:
                 print(f"An error occurred: {e}")
 except Exception as e:
     print(f"Error reading the file: {e}")
-
-# Main function to be called by Airflow
-def load_data_to_postgres():
-    # Database connection parameters
-    db_params = {
-        'dbname': Variable.get('db_name', 'arxiv'),
-        'user': Variable.get('db_user', 'admin'),
-        'password': Variable.get('db_password', 'admin'),
-        'host': Variable.get('db_host', 'localhost')
-    }
-
-    try:
-        conn = psycopg2.connect(**db_params)
-        conn.autocommit = True
-        cursor = conn.cursor()
-
-        # Path to the JSON file
-        file_path = Variable.get('json_file_path', 'archive/data.json')
-
-        with open(file_path, 'r', encoding='utf-8') as file:
-            for line in file:
-                try:
-                    record = json.loads(line)
-                    load_data(cursor, record)
-                except json.JSONDecodeError as e:
-                    print(f"Failed to parse JSON line: {e}")
-                except Exception as e:
-                    print(f"An error occurred: {e}")
-
-        cursor.close()
-        conn.close()
-
-    except psycopg2.Error as e:
-        print(f"Error connecting to the database: {e}")
 # Close the connection
 
 cursor.close()
