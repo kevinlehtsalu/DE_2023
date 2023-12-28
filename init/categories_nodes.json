@@ -1,0 +1,286 @@
+[
+    {
+        "category_id": 1,
+        "category_name": "hep-ph"
+    },
+    {
+        "category_id": 2,
+        "category_name": "math.CO"
+    },
+    {
+        "category_id": 3,
+        "category_name": "cs.CG"
+    },
+    {
+        "category_id": 4,
+        "category_name": "physics.gen-ph"
+    },
+    {
+        "category_id": 6,
+        "category_name": "math.CA"
+    },
+    {
+        "category_id": 7,
+        "category_name": "math.FA"
+    },
+    {
+        "category_id": 8,
+        "category_name": "cond-mat.mes-hall"
+    },
+    {
+        "category_id": 9,
+        "category_name": "gr-qc"
+    },
+    {
+        "category_id": 10,
+        "category_name": "cond-mat.mtrl-sci"
+    },
+    {
+        "category_id": 11,
+        "category_name": "astro-ph"
+    },
+    {
+        "category_id": 13,
+        "category_name": "math.NT"
+    },
+    {
+        "category_id": 14,
+        "category_name": "math.AG"
+    },
+    {
+        "category_id": 18,
+        "category_name": "math.AT"
+    },
+    {
+        "category_id": 19,
+        "category_name": "hep-th"
+    },
+    {
+        "category_id": 23,
+        "category_name": "math.PR"
+    },
+    {
+        "category_id": 25,
+        "category_name": "hep-ex"
+    },
+    {
+        "category_id": 26,
+        "category_name": "nlin.PS"
+    },
+    {
+        "category_id": 27,
+        "category_name": "physics.chem-ph"
+    },
+    {
+        "category_id": 28,
+        "category_name": "q-bio.MN"
+    },
+    {
+        "category_id": 29,
+        "category_name": "math.NA"
+    },
+    {
+        "category_id": 32,
+        "category_name": "math.RA"
+    },
+    {
+        "category_id": 37,
+        "category_name": "cond-mat.str-el"
+    },
+    {
+        "category_id": 39,
+        "category_name": "physics.optics"
+    },
+    {
+        "category_id": 40,
+        "category_name": "physics.comp-ph"
+    },
+    {
+        "category_id": 41,
+        "category_name": "q-bio.PE"
+    },
+    {
+        "category_id": 42,
+        "category_name": "q-bio.CB"
+    },
+    {
+        "category_id": 43,
+        "category_name": "quant-ph"
+    },
+    {
+        "category_id": 46,
+        "category_name": "q-bio.QM"
+    },
+    {
+        "category_id": 53,
+        "category_name": "hep-lat"
+    },
+    {
+        "category_id": 54,
+        "category_name": "nucl-th"
+    },
+    {
+        "category_id": 55,
+        "category_name": "math.OA"
+    },
+    {
+        "category_id": 57,
+        "category_name": "math.QA"
+    },
+    {
+        "category_id": 58,
+        "category_name": "math-ph"
+    },
+    {
+        "category_id": 59,
+        "category_name": "math.MP"
+    },
+    {
+        "category_id": 62,
+        "category_name": "cond-mat.stat-mech"
+    },
+    {
+        "category_id": 65,
+        "category_name": "nlin.SI"
+    },
+    {
+        "category_id": 67,
+        "category_name": "cs.IT"
+    },
+    {
+        "category_id": 68,
+        "category_name": "math.IT"
+    },
+    {
+        "category_id": 69,
+        "category_name": "cs.NE"
+    },
+    {
+        "category_id": 70,
+        "category_name": "cs.AI"
+    },
+    {
+        "category_id": 76,
+        "category_name": "physics.ed-ph"
+    },
+    {
+        "category_id": 78,
+        "category_name": "math.DG"
+    },
+    {
+        "category_id": 82,
+        "category_name": "cond-mat.soft"
+    },
+    {
+        "category_id": 87,
+        "category_name": "physics.pop-ph"
+    },
+    {
+        "category_id": 91,
+        "category_name": "cs.DS"
+    },
+    {
+        "category_id": 97,
+        "category_name": "math.CV"
+    },
+    {
+        "category_id": 98,
+        "category_name": "math.DS"
+    },
+    {
+        "category_id": 100,
+        "category_name": "physics.soc-ph"
+    },
+    {
+        "category_id": 107,
+        "category_name": "nucl-ex"
+    },
+    {
+        "category_id": 113,
+        "category_name": "cond-mat.other"
+    },
+    {
+        "category_id": 118,
+        "category_name": "physics.flu-dyn"
+    },
+    {
+        "category_id": 123,
+        "category_name": "physics.data-an"
+    },
+    {
+        "category_id": 125,
+        "category_name": "cs.CE"
+    },
+    {
+        "category_id": 127,
+        "category_name": "cs.MS"
+    },
+    {
+        "category_id": 128,
+        "category_name": "cs.NA"
+    },
+    {
+        "category_id": 130,
+        "category_name": "math.GR"
+    },
+    {
+        "category_id": 133,
+        "category_name": "cond-mat.supr-con"
+    },
+    {
+        "category_id": 146,
+        "category_name": "math.AC"
+    },
+    {
+        "category_id": 150,
+        "category_name": "math.RT"
+    },
+    {
+        "category_id": 151,
+        "category_name": "math.SG"
+    },
+    {
+        "category_id": 155,
+        "category_name": "cs.CC"
+    },
+    {
+        "category_id": 160,
+        "category_name": "math.KT"
+    },
+    {
+        "category_id": 163,
+        "category_name": "math.GT"
+    },
+    {
+        "category_id": 175,
+        "category_name": "nlin.CD"
+    },
+    {
+        "category_id": 179,
+        "category_name": "math.AP"
+    },
+    {
+        "category_id": 208,
+        "category_name": "physics.class-ph"
+    },
+    {
+        "category_id": 223,
+        "category_name": "q-bio.OT"
+    },
+    {
+        "category_id": 249,
+        "category_name": "physics.plasm-ph"
+    },
+    {
+        "category_id": 262,
+        "category_name": "physics.bio-ph"
+    },
+    {
+        "category_id": 264,
+        "category_name": "q-bio.BM"
+    },
+    {
+        "category_id": 273,
+        "category_name": "nlin.CG"
+    }
+]

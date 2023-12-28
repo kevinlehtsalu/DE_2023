@@ -24,10 +24,13 @@ services:
       - "5050:80"
 
   neo4j:
-    image: neo4j:latest
+    image: neo4j:5.13.0
     container_name: my_neo4j
     environment:
       NEO4J_AUTH: neo4j/123456789
+      NEO4J_PLUGINS: '["apoc"]'
+      NEO4J_dbms_security_procedures_unrestricted: "apoc.*"
+      NEO4J_apoc_import_file_enabled: "true"
     ports:
       - "7474:7474"  # HTTP
       - "7687:7687"  # Bolt
