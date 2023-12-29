@@ -156,6 +156,7 @@ services:
       - neo4j_data:/data
       - neo4j_logs:/logs
       - neo4j_plugins:/plugins
+      - shared_data:/var/lib/neo4j/import
 
   airflow-init:
     image: my_custom_airflow_image:latest
@@ -196,11 +197,14 @@ services:
       - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=True
       - AIRFLOW__WEBSERVER__EXPOSE_CONFIG=True
       - AIRFLOW__WEBSERVER__DEFAULT_UI_TIMEZONE=UTC
+      - AIRFLOW__CORE__TEST_CONNECTION=Enabled
     ports:
       - "8080:8080"
     volumes:
       - airflow_dags:/opt/airflow/dags
       - airflow_logs:/opt/airflow/logs
+      - ./dags:/opt/airflow/dags
+      - shared_data:/opt/airflow/data
     command: webserver
 
   airflow-scheduler:
@@ -220,12 +224,126 @@ services:
     command: scheduler
 
 volumes:
+  shared_data:
   postgres_data:
   neo4j_data:
   neo4j_logs:
   neo4j_plugins:
   airflow_dags:
   airflow_logs:
+#################################################################################################################
+#version: '3.8'
+#
+#services:
+#  postgres:
+#    image: postgres:latest
+#    container_name: arxiv_postgres
+#    environment:
+#      POSTGRES_USER: admin
+#      POSTGRES_PASSWORD: admin
+#      POSTGRES_DB: arxiv
+#    ports:
+#      - "5432:5432"
+#    volumes:
+#      - postgres_data:/var/lib/postgresql/data
+#
+#  pgadmin:
+#    image: dpage/pgadmin4
+#    container_name: my_pgadmin
+#    environment:
+#      PGADMIN_DEFAULT_EMAIL: admin@example.com
+#      PGADMIN_DEFAULT_PASSWORD: admin
+#    ports:
+#      - "5050:80"
+#
+#  neo4j:
+#    image: neo4j:5.13.0
+#    container_name: my_neo4j
+#    environment:
+#      NEO4J_AUTH: neo4j/123456789
+#      NEO4J_PLUGINS: '["apoc"]'
+#      NEO4J_dbms_security_procedures_unrestricted: "apoc.*"
+#      NEO4J_apoc_import_file_enabled: "true"
+#    ports:
+#      - "7474:7474"  # HTTP
+#      - "7687:7687"  # Bolt
+#    volumes:
+#      - neo4j_data:/data
+#      - neo4j_logs:/logs
+#      - neo4j_plugins:/plugins
+##      - ./dags:/var/lib/neo4j/import
+#
+#  airflow-init:
+#    image: my_custom_airflow_image:latest
+#    container_name: airflow_init
+#    environment:
+#      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://admin:admin@postgres/arxiv
+#      - _AIRFLOW_DB_UPGRADE=true
+#      - _AIRFLOW_WWW_USER_CREATE=true
+#      - _AIRFLOW_WWW_USER_USERNAME=admin
+#      - _AIRFLOW_WWW_USER_PASSWORD=admin
+#      - _AIRFLOW_WWW_USER_EMAIL=admin@example.com
+#      - _AIRFLOW_WWW_USER_FIRSTNAME=Airflow
+#      - _AIRFLOW_WWW_USER_LASTNAME=Admin
+#      - _AIRFLOW_WWW_USER_ROLE=Admin
+#    entrypoint: /bin/bash
+#    command: >
+#      -c "airflow db upgrade &&
+#          airflow users create --username admin --password admin --firstname Airflow --lastname Admin --role Admin --email admin@example.com &&
+#          airflow variables set db_host postgres &&
+#          airflow variables set db_user admin &&
+#          airflow variables set db_password admin &&
+#          airflow variables set db_name arxiv &&
+#          exit 0"
+#    depends_on:
+#      - postgres
+#
+#  airflow-webserver:
+#    image: my_custom_airflow_image:latest
+#    container_name: my_airflow_webserver
+#    restart: always
+#    depends_on:
+#      - airflow-init
+#      - postgres
+#    environment:
+#      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+#      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://admin:admin@postgres/arxiv
+#      - AIRFLOW__CORE__FERNET_KEY=81HqDtbqAywKSOumSha3BhWNOdQ26slT6K0YaZeZyPs=
+#      - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=True
+#      - AIRFLOW__WEBSERVER__EXPOSE_CONFIG=True
+#      - AIRFLOW__WEBSERVER__DEFAULT_UI_TIMEZONE=UTC
+#      - AIRFLOW__CORE__TEST_CONNECTION=Enabled
+#    ports:
+#      - "8080:8080"
+#    volumes:
+#      - ./dags:/opt/airflow/dags
+#      - airflow_logs:/opt/airflow/logs
+#      - shared_data:/opt/airflow/data
+#    command: webserver
+#
+#  airflow-scheduler:
+#    image: my_custom_airflow_image:latest
+#    container_name: my_airflow_scheduler
+#    environment:
+#      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+#      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://admin:admin@postgres/arxiv
+#      - AIRFLOW__CORE__FERNET_KEY=81HqDtbqAywKSOumSha3BhWNOdQ26slT6K0YaZeZyPs=
+#      - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=True
+#      - AIRFLOW__WEBSERVER__EXPOSE_CONFIG=True
+#      - AIRFLOW__WEBSERVER__DEFAULT_UI_TIMEZONE=UTC
+#      - AIRFLOW__CORE__TEST_CONNECTION=Enabled  # Enable test connection functionality
+#    volumes:
+#      - ./dags:/opt/airflow/dags
+#      - airflow_logs:/opt/airflow/logs
+#    command: scheduler
+#
+#volumes:
+#  shared_data:
+#  postgres_data:
+#  neo4j_data:
+#  neo4j_logs:
+#  neo4j_plugins:
+#  airflow_logs:
 
 
 
