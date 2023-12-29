@@ -98,6 +98,7 @@ services:
     volumes:
       - airflow_dags:/opt/airflow/dags
       - airflow_logs:/opt/airflow/logs
+      - shared_data:/opt/airflow/data
     depends_on:
       - postgres
     command: scheduler

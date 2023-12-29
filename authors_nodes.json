@@ -1,0 +1,2816 @@
+[
+    {
+        "author_id": 1,
+        "last_name": "Balázs",
+        "first_name": "C.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 2,
+        "last_name": "Berger",
+        "first_name": "E. L.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 3,
+        "last_name": "Nadolsky",
+        "first_name": "P. M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 4,
+        "last_name": "Yuan",
+        "first_name": "C. -P.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 5,
+        "last_name": "Streinu",
+        "first_name": "Ileana",
+        "middle_name": ""
+    },
+    {
+        "author_id": 6,
+        "last_name": "Theran",
+        "first_name": "Louis",
+        "middle_name": ""
+    },
+    {
+        "author_id": 7,
+        "last_name": "Pan",
+        "first_name": "Hongjun",
+        "middle_name": ""
+    },
+    {
+        "author_id": 8,
+        "last_name": "Callan",
+        "first_name": "David",
+        "middle_name": ""
+    },
+    {
+        "author_id": 11,
+        "last_name": "Pong",
+        "first_name": "Y. H.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 12,
+        "last_name": "Law",
+        "first_name": "C. K.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 13,
+        "last_name": "Corichi",
+        "first_name": "Alejandro",
+        "middle_name": ""
+    },
+    {
+        "author_id": 14,
+        "last_name": "Vukasinac",
+        "first_name": "Tatjana",
+        "middle_name": ""
+    },
+    {
+        "author_id": 15,
+        "last_name": "Zapata",
+        "first_name": "Jose A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 16,
+        "last_name": "Swift",
+        "first_name": "Damian C.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 17,
+        "last_name": "Harvey",
+        "first_name": "Paul",
+        "middle_name": ""
+    },
+    {
+        "author_id": 18,
+        "last_name": "Merin",
+        "first_name": "Bruno",
+        "middle_name": ""
+    },
+    {
+        "author_id": 19,
+        "last_name": "Huard",
+        "first_name": "Tracy L.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 20,
+        "last_name": "Rebull",
+        "first_name": "Luisa M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 21,
+        "last_name": "Chapman",
+        "first_name": "Nicholas",
+        "middle_name": ""
+    },
+    {
+        "author_id": 22,
+        "last_name": "Evans",
+        "first_name": "Neal J.",
+        "middle_name": "II"
+    },
+    {
+        "author_id": 23,
+        "last_name": "Myers",
+        "first_name": "Philip C.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 24,
+        "last_name": "Ovchinnikov",
+        "first_name": "Sergei",
+        "middle_name": ""
+    },
+    {
+        "author_id": 25,
+        "last_name": "Cunningham",
+        "first_name": "Clifton",
+        "middle_name": ""
+    },
+    {
+        "author_id": 26,
+        "last_name": "Dembele",
+        "first_name": "Lassina",
+        "middle_name": ""
+    },
+    {
+        "author_id": 27,
+        "last_name": "Choi",
+        "first_name": "Dohoon",
+        "middle_name": ""
+    },
+    {
+        "author_id": 29,
+        "last_name": "Choie",
+        "first_name": "YoungJu",
+        "middle_name": ""
+    },
+    {
+        "author_id": 30,
+        "last_name": "Fujii",
+        "first_name": "Koichi",
+        "middle_name": ""
+    },
+    {
+        "author_id": 31,
+        "last_name": "Stahn",
+        "first_name": "Christian",
+        "middle_name": ""
+    },
+    {
+        "author_id": 32,
+        "last_name": "Chang",
+        "first_name": "Chao-Hsi",
+        "middle_name": ""
+    },
+    {
+        "author_id": 33,
+        "last_name": "Li",
+        "first_name": "Tong",
+        "middle_name": ""
+    },
+    {
+        "author_id": 34,
+        "last_name": "Li",
+        "first_name": "Xue-Qian",
+        "middle_name": ""
+    },
+    {
+        "author_id": 35,
+        "last_name": "Wang",
+        "first_name": "Yu-Ming",
+        "middle_name": ""
+    },
+    {
+        "author_id": 36,
+        "last_name": "Mhlahlo",
+        "first_name": "Nceba",
+        "middle_name": ""
+    },
+    {
+        "author_id": 37,
+        "last_name": "Buckley",
+        "first_name": "David H.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 38,
+        "last_name": "Dhillon",
+        "first_name": "Vikram S.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 39,
+        "last_name": "Potter",
+        "first_name": "Steven B.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 40,
+        "last_name": "Warner",
+        "first_name": "Brian",
+        "middle_name": ""
+    },
+    {
+        "author_id": 41,
+        "last_name": "Woudt",
+        "first_name": "Patric A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 42,
+        "last_name": "Gustavsson",
+        "first_name": "Andreas",
+        "middle_name": ""
+    },
+    {
+        "author_id": 43,
+        "last_name": "Konno",
+        "first_name": "Norio",
+        "middle_name": ""
+    },
+    {
+        "author_id": 44,
+        "last_name": "The BABAR Collaboration",
+        "first_name": "",
+        "middle_name": ""
+    },
+    {
+        "author_id": 45,
+        "last_name": "Aubert",
+        "first_name": "B.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 46,
+        "last_name": "Casagrande",
+        "first_name": "Vanessa",
+        "middle_name": ""
+    },
+    {
+        "author_id": 47,
+        "last_name": "Togashi",
+        "first_name": "Yuichi",
+        "middle_name": ""
+    },
+    {
+        "author_id": 48,
+        "last_name": "Mikhailov",
+        "first_name": "Alexander S.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 49,
+        "last_name": "Malham",
+        "first_name": "Simon J. A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 50,
+        "last_name": "Wiese",
+        "first_name": "Anke",
+        "middle_name": ""
+    },
+    {
+        "author_id": 51,
+        "last_name": "Loukitcheva",
+        "first_name": "M. A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 52,
+        "last_name": "Solanki",
+        "first_name": "S. K.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 53,
+        "last_name": "White",
+        "first_name": "S.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 54,
+        "last_name": "Serga",
+        "first_name": "A. A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 55,
+        "last_name": "Kostylev",
+        "first_name": "M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 56,
+        "last_name": "Hillebrands",
+        "first_name": "B.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 58,
+        "last_name": "Goerbig",
+        "first_name": "M. O.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 59,
+        "last_name": "Fuchs",
+        "first_name": "J. -N.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 60,
+        "last_name": "Kechedzhi",
+        "first_name": "K.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 61,
+        "last_name": "Fal'ko",
+        "first_name": "Vladimir I.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 62,
+        "last_name": "Frenkel",
+        "first_name": "Péter E.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 63,
+        "last_name": "Shu",
+        "first_name": "Zhan",
+        "middle_name": ""
+    },
+    {
+        "author_id": 66,
+        "last_name": "Hague",
+        "first_name": "J. P.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 67,
+        "last_name": "d'Ambrumenil",
+        "first_name": "N.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 68,
+        "last_name": "Esteban-Pretel",
+        "first_name": "A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 69,
+        "last_name": "Tomàs",
+        "first_name": "R.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 70,
+        "last_name": "Valle",
+        "first_name": "J. W. F.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 74,
+        "last_name": "Ogryzko",
+        "first_name": "Vasily",
+        "middle_name": ""
+    },
+    {
+        "author_id": 148,
+        "last_name": "Rubin",
+        "first_name": "Boris",
+        "middle_name": ""
+    },
+    {
+        "author_id": 149,
+        "last_name": "Šrámek",
+        "first_name": "Rastislav",
+        "middle_name": ""
+    },
+    {
+        "author_id": 150,
+        "last_name": "Brejová",
+        "first_name": "Broňa",
+        "middle_name": ""
+    },
+    {
+        "author_id": 78,
+        "last_name": "Wang",
+        "first_name": "Liming",
+        "middle_name": ""
+    },
+    {
+        "author_id": 79,
+        "last_name": "Sontag",
+        "first_name": "Eduardo D.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 151,
+        "last_name": "Vinař",
+        "first_name": "Tomáš",
+        "middle_name": ""
+    },
+    {
+        "author_id": 72,
+        "last_name": "Maltsev",
+        "first_name": "Valeri P.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 152,
+        "last_name": "Choudhury",
+        "first_name": "Somnath",
+        "middle_name": ""
+    },
+    {
+        "author_id": 71,
+        "last_name": "Yurkin",
+        "first_name": "Maxim A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 73,
+        "last_name": "Hoekstra",
+        "first_name": "Alfons G.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 85,
+        "last_name": "Oller",
+        "first_name": "Jose A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 86,
+        "last_name": "Roca",
+        "first_name": "Luis",
+        "middle_name": ""
+    },
+    {
+        "author_id": 87,
+        "last_name": "Popa",
+        "first_name": "Mihai",
+        "middle_name": ""
+    },
+    {
+        "author_id": 89,
+        "last_name": "Licata",
+        "first_name": "Ignazio",
+        "middle_name": ""
+    },
+    {
+        "author_id": 90,
+        "last_name": "Brownlee",
+        "first_name": "R. A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 91,
+        "last_name": "Gorban",
+        "first_name": "A. N.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 92,
+        "last_name": "Levesley",
+        "first_name": "J.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 93,
+        "last_name": "El",
+        "first_name": "G. A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 94,
+        "last_name": "Grimshaw",
+        "first_name": "R. H. J.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 95,
+        "last_name": "Kamchatnov",
+        "first_name": "A. M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 96,
+        "last_name": "Csiszar",
+        "first_name": "I.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 97,
+        "last_name": "Hiai",
+        "first_name": "F.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 98,
+        "last_name": "Petz",
+        "first_name": "D.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 101,
+        "last_name": "Stroeer",
+        "first_name": "Alexander",
+        "middle_name": ""
+    },
+    {
+        "author_id": 102,
+        "last_name": "Veitch",
+        "first_name": "John",
+        "middle_name": ""
+    },
+    {
+        "author_id": 103,
+        "last_name": "Roever",
+        "first_name": "Christian",
+        "middle_name": ""
+    },
+    {
+        "author_id": 104,
+        "last_name": "Bloomer",
+        "first_name": "Ed",
+        "middle_name": ""
+    },
+    {
+        "author_id": 105,
+        "last_name": "Clark",
+        "first_name": "James",
+        "middle_name": ""
+    },
+    {
+        "author_id": 106,
+        "last_name": "Christensen",
+        "first_name": "Nelson",
+        "middle_name": ""
+    },
+    {
+        "author_id": 107,
+        "last_name": "Hendry",
+        "first_name": "Martin",
+        "middle_name": ""
+    },
+    {
+        "author_id": 108,
+        "last_name": "Messenger",
+        "first_name": "Chris",
+        "middle_name": ""
+    },
+    {
+        "author_id": 109,
+        "last_name": "Meyer",
+        "first_name": "Renate",
+        "middle_name": ""
+    },
+    {
+        "author_id": 110,
+        "last_name": "Pitkin",
+        "first_name": "Matthew",
+        "middle_name": ""
+    },
+    {
+        "author_id": 111,
+        "last_name": "Toher",
+        "first_name": "Jennifer",
+        "middle_name": ""
+    },
+    {
+        "author_id": 112,
+        "last_name": "Umstaetter",
+        "first_name": "Richard",
+        "middle_name": ""
+    },
+    {
+        "author_id": 113,
+        "last_name": "Vecchio",
+        "first_name": "Alberto",
+        "middle_name": ""
+    },
+    {
+        "author_id": 114,
+        "last_name": "Woan",
+        "first_name": "Graham",
+        "middle_name": ""
+    },
+    {
+        "author_id": 115,
+        "last_name": "Øbro",
+        "first_name": "Mikkel",
+        "middle_name": ""
+    },
+    {
+        "author_id": 99,
+        "last_name": "Kosel",
+        "first_name": "T.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 57,
+        "last_name": "de Marrais",
+        "first_name": "Robert P. C.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 118,
+        "last_name": "Cohen",
+        "first_name": "Scott M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 119,
+        "last_name": "Youssef",
+        "first_name": "Nabil L.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 120,
+        "last_name": "Abed",
+        "first_name": "S. H.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 121,
+        "last_name": "Soleiman",
+        "first_name": "A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 9,
+        "last_name": "Abu-Shammala",
+        "first_name": "Wael",
+        "middle_name": ""
+    },
+    {
+        "author_id": 10,
+        "last_name": "Torchinsky",
+        "first_name": "Alberto",
+        "middle_name": ""
+    },
+    {
+        "author_id": 124,
+        "last_name": "Ziambaras",
+        "first_name": "Eleni",
+        "middle_name": ""
+    },
+    {
+        "author_id": 125,
+        "last_name": "Kleis",
+        "first_name": "Jesper",
+        "middle_name": ""
+    },
+    {
+        "author_id": 126,
+        "last_name": "Schroder",
+        "first_name": "Elsebeth",
+        "middle_name": ""
+    },
+    {
+        "author_id": 127,
+        "last_name": "Hyldgaard",
+        "first_name": "Per",
+        "middle_name": ""
+    },
+    {
+        "author_id": 128,
+        "last_name": "Prestipino",
+        "first_name": "Santi",
+        "middle_name": ""
+    },
+    {
+        "author_id": 129,
+        "last_name": "Saija",
+        "first_name": "Franz",
+        "middle_name": ""
+    },
+    {
+        "author_id": 130,
+        "last_name": "Werner",
+        "first_name": "Philipp",
+        "middle_name": ""
+    },
+    {
+        "author_id": 131,
+        "last_name": "Millis",
+        "first_name": "Andrew J.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 132,
+        "last_name": "Tipler",
+        "first_name": "Frank J.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 133,
+        "last_name": "Beatty",
+        "first_name": "T. G.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 134,
+        "last_name": "Fernandez",
+        "first_name": "J. M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 135,
+        "last_name": "Latham",
+        "first_name": "D. W.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 136,
+        "last_name": "Bakos",
+        "first_name": "G. A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 137,
+        "last_name": "Kovacs",
+        "first_name": "G.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 138,
+        "last_name": "Noyes",
+        "first_name": "R. W.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 139,
+        "last_name": "Stefanik",
+        "first_name": "R. P.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 140,
+        "last_name": "Torres",
+        "first_name": "G.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 141,
+        "last_name": "Everett",
+        "first_name": "M. E.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 142,
+        "last_name": "Hergenrother",
+        "first_name": "C. W.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 143,
+        "last_name": "Bertulani",
+        "first_name": "C. A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 144,
+        "last_name": "Cardella",
+        "first_name": "G.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 145,
+        "last_name": "De Napoli",
+        "first_name": "M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 146,
+        "last_name": "Raciti",
+        "first_name": "G.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 147,
+        "last_name": "Rapisarda",
+        "first_name": "E.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 153,
+        "last_name": "Molev",
+        "first_name": "A. I.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 154,
+        "last_name": "Friedman",
+        "first_name": "Lawrence H.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 155,
+        "last_name": "Malesevic",
+        "first_name": "Branko J.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 156,
+        "last_name": "Robertson",
+        "first_name": "John W.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 157,
+        "last_name": "Yanzhang",
+        "first_name": "He",
+        "middle_name": ""
+    },
+    {
+        "author_id": 158,
+        "last_name": "Chengguang",
+        "first_name": "Bao",
+        "middle_name": ""
+    },
+    {
+        "author_id": 159,
+        "last_name": "Wichmann",
+        "first_name": "S.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 160,
+        "last_name": "Holman",
+        "first_name": "E. W.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 161,
+        "last_name": "Kosovtsov",
+        "first_name": "Yu. N.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 162,
+        "last_name": "Fujino",
+        "first_name": "Osamu",
+        "middle_name": ""
+    },
+    {
+        "author_id": 163,
+        "last_name": "Abuhlail",
+        "first_name": "J. Y.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 164,
+        "last_name": "Nauman",
+        "first_name": "S. K.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 165,
+        "last_name": "Chen",
+        "first_name": "Chong",
+        "middle_name": ""
+    },
+    {
+        "author_id": 64,
+        "last_name": "Chen",
+        "first_name": "Xiao-Lin",
+        "middle_name": ""
+    },
+    {
+        "author_id": 167,
+        "last_name": "Liu",
+        "first_name": "Xiang",
+        "middle_name": ""
+    },
+    {
+        "author_id": 65,
+        "last_name": "Deng",
+        "first_name": "Wei-Zhen",
+        "middle_name": ""
+    },
+    {
+        "author_id": 169,
+        "last_name": "Zhu",
+        "first_name": "Shi-Lin",
+        "middle_name": ""
+    },
+    {
+        "author_id": 170,
+        "last_name": "Gronau",
+        "first_name": "Michael",
+        "middle_name": ""
+    },
+    {
+        "author_id": 171,
+        "last_name": "Abbas",
+        "first_name": "Afsar",
+        "middle_name": ""
+    },
+    {
+        "author_id": 172,
+        "last_name": "Mars",
+        "first_name": "Marc",
+        "middle_name": ""
+    },
+    {
+        "author_id": 173,
+        "last_name": "Mena",
+        "first_name": "Filipe C.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 174,
+        "last_name": "Vera",
+        "first_name": "Raul",
+        "middle_name": ""
+    },
+    {
+        "author_id": 88,
+        "last_name": "Goswami",
+        "first_name": "Debashish",
+        "middle_name": ""
+    },
+    {
+        "author_id": 175,
+        "last_name": "McLaughlin",
+        "first_name": "Dean E.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 176,
+        "last_name": "Fall",
+        "first_name": "S. Michael",
+        "middle_name": ""
+    },
+    {
+        "author_id": 177,
+        "last_name": "Kurosaki",
+        "first_name": "Tetsuo",
+        "middle_name": ""
+    },
+    {
+        "author_id": 178,
+        "last_name": "Wadati",
+        "first_name": "Miki",
+        "middle_name": ""
+    },
+    {
+        "author_id": 179,
+        "last_name": "Barvinsky",
+        "first_name": "A. O.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 180,
+        "last_name": "Fouxon",
+        "first_name": "Itzhak",
+        "middle_name": ""
+    },
+    {
+        "author_id": 181,
+        "last_name": "Meerson",
+        "first_name": "Baruch",
+        "middle_name": ""
+    },
+    {
+        "author_id": 182,
+        "last_name": "Assaf",
+        "first_name": "Michael",
+        "middle_name": ""
+    },
+    {
+        "author_id": 183,
+        "last_name": "Livne",
+        "first_name": "Eli",
+        "middle_name": ""
+    },
+    {
+        "author_id": 184,
+        "last_name": "Mukhopadhyay",
+        "first_name": "Partha",
+        "middle_name": ""
+    },
+    {
+        "author_id": 185,
+        "last_name": "Vysotsky",
+        "first_name": "Vladislav V.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 186,
+        "last_name": "Duc",
+        "first_name": "Duong Minh",
+        "middle_name": ""
+    },
+    {
+        "author_id": 187,
+        "last_name": "Tuyen",
+        "first_name": "Truong Trung",
+        "middle_name": ""
+    },
+    {
+        "author_id": 188,
+        "last_name": "Tcherniega",
+        "first_name": "N. V.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 190,
+        "last_name": "Ingber",
+        "first_name": "Lester",
+        "middle_name": ""
+    },
+    {
+        "author_id": 191,
+        "last_name": "Minasyan",
+        "first_name": "Ashot",
+        "middle_name": ""
+    },
+    {
+        "author_id": 192,
+        "last_name": "Gattringer",
+        "first_name": "Christof",
+        "middle_name": ""
+    },
+    {
+        "author_id": 193,
+        "last_name": "Liptak",
+        "first_name": "Ludovit",
+        "middle_name": ""
+    },
+    {
+        "author_id": 194,
+        "last_name": "Lee",
+        "first_name": "W. S.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 195,
+        "last_name": "Johnston",
+        "first_name": "S.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 196,
+        "last_name": "Devereaux",
+        "first_name": "T. P.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 197,
+        "last_name": "Shen",
+        "first_name": "Z. -X.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 198,
+        "last_name": "Breuillard",
+        "first_name": "Emmanuel",
+        "middle_name": ""
+    },
+    {
+        "author_id": 199,
+        "last_name": "Nucci",
+        "first_name": "M. C.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 200,
+        "last_name": "Leach",
+        "first_name": "P. G. L.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 201,
+        "last_name": "Kawahigashi",
+        "first_name": "Yasuyuki",
+        "middle_name": ""
+    },
+    {
+        "author_id": 202,
+        "last_name": "Raymond",
+        "first_name": "Jack",
+        "middle_name": ""
+    },
+    {
+        "author_id": 203,
+        "last_name": "Saad",
+        "first_name": "David",
+        "middle_name": ""
+    },
+    {
+        "author_id": 204,
+        "last_name": "Audenaert",
+        "first_name": "Koenraad M. R.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 205,
+        "last_name": "Aujla",
+        "first_name": "Jaspal Singh",
+        "middle_name": ""
+    },
+    {
+        "author_id": 206,
+        "last_name": "Ida",
+        "first_name": "Daisuke",
+        "middle_name": ""
+    },
+    {
+        "author_id": 207,
+        "last_name": "Siino",
+        "first_name": "Masaru",
+        "middle_name": ""
+    },
+    {
+        "author_id": 208,
+        "last_name": "Di Vecchia",
+        "first_name": "Paolo",
+        "middle_name": ""
+    },
+    {
+        "author_id": 209,
+        "last_name": "Chardin",
+        "first_name": "Marc",
+        "middle_name": ""
+    },
+    {
+        "author_id": 210,
+        "last_name": "Cutkosky",
+        "first_name": "Steven Dale",
+        "middle_name": ""
+    },
+    {
+        "author_id": 211,
+        "last_name": "Herzog",
+        "first_name": "Juergen",
+        "middle_name": ""
+    },
+    {
+        "author_id": 212,
+        "last_name": "Srinivasan",
+        "first_name": "Hema",
+        "middle_name": ""
+    },
+    {
+        "author_id": 213,
+        "last_name": "Gemelli",
+        "first_name": "Gianluca",
+        "middle_name": ""
+    },
+    {
+        "author_id": 214,
+        "last_name": "Gaiffi",
+        "first_name": "Giovanni",
+        "middle_name": ""
+    },
+    {
+        "author_id": 215,
+        "last_name": "Grassi",
+        "first_name": "Michele",
+        "middle_name": ""
+    },
+    {
+        "author_id": 216,
+        "last_name": "Entov",
+        "first_name": "Michael",
+        "middle_name": ""
+    },
+    {
+        "author_id": 217,
+        "last_name": "Polterovich",
+        "first_name": "Leonid",
+        "middle_name": ""
+    },
+    {
+        "author_id": 218,
+        "last_name": "Schafer",
+        "first_name": "Andreas",
+        "middle_name": ""
+    },
+    {
+        "author_id": 219,
+        "last_name": "Wang",
+        "first_name": "Xin-Nian",
+        "middle_name": ""
+    },
+    {
+        "author_id": 220,
+        "last_name": "Zhang",
+        "first_name": "Ben-Wei",
+        "middle_name": ""
+    },
+    {
+        "author_id": 222,
+        "last_name": "Gubin",
+        "first_name": "Sergey",
+        "middle_name": ""
+    },
+    {
+        "author_id": 223,
+        "last_name": "Durgun",
+        "first_name": "Engin",
+        "middle_name": ""
+    },
+    {
+        "author_id": 224,
+        "last_name": "Cakir",
+        "first_name": "Deniz",
+        "middle_name": ""
+    },
+    {
+        "author_id": 225,
+        "last_name": "Akman",
+        "first_name": "Nurten",
+        "middle_name": ""
+    },
+    {
+        "author_id": 226,
+        "last_name": "Ciraci",
+        "first_name": "Salim",
+        "middle_name": ""
+    },
+    {
+        "author_id": 230,
+        "last_name": "Kotov",
+        "first_name": "Valeri N.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 231,
+        "last_name": "Yao",
+        "first_name": "Dao-Xin",
+        "middle_name": ""
+    },
+    {
+        "author_id": 232,
+        "last_name": "Neto",
+        "first_name": "A. H. Castro",
+        "middle_name": ""
+    },
+    {
+        "author_id": 233,
+        "last_name": "Campbell",
+        "first_name": "D. K.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 234,
+        "last_name": "Ando",
+        "first_name": "Yoshifumi",
+        "middle_name": ""
+    },
+    {
+        "author_id": 235,
+        "last_name": "Cho",
+        "first_name": "Yong Seung",
+        "middle_name": ""
+    },
+    {
+        "author_id": 236,
+        "last_name": "Hong",
+        "first_name": "Soon-Tae",
+        "middle_name": ""
+    },
+    {
+        "author_id": 237,
+        "last_name": "Liu",
+        "first_name": "T.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 238,
+        "last_name": "Wang",
+        "first_name": "K. L.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 239,
+        "last_name": "Feng",
+        "first_name": "M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 240,
+        "last_name": "Welander",
+        "first_name": "Paul B.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 241,
+        "last_name": "Eckstein",
+        "first_name": "James N.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 242,
+        "last_name": "Thamizhavel",
+        "first_name": "A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 243,
+        "last_name": "Kulkarni",
+        "first_name": "R.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 244,
+        "last_name": "Dhar",
+        "first_name": "S. K.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 245,
+        "last_name": "Cheng",
+        "first_name": "Xiao-Dong",
+        "middle_name": ""
+    },
+    {
+        "author_id": 246,
+        "last_name": "He",
+        "first_name": "Kang-Lin",
+        "middle_name": ""
+    },
+    {
+        "author_id": 247,
+        "last_name": "Li",
+        "first_name": "Hai-Bo",
+        "middle_name": ""
+    },
+    {
+        "author_id": 248,
+        "last_name": "Wang",
+        "first_name": "Yi-Fang",
+        "middle_name": ""
+    },
+    {
+        "author_id": 249,
+        "last_name": "Yang",
+        "first_name": "Mao-Zhi",
+        "middle_name": ""
+    },
+    {
+        "author_id": 250,
+        "last_name": "Ahn",
+        "first_name": "Changhyun",
+        "middle_name": ""
+    },
+    {
+        "author_id": 251,
+        "last_name": "Takahashi",
+        "first_name": "M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 252,
+        "last_name": "Ghosh",
+        "first_name": "Sankalpa",
+        "middle_name": ""
+    },
+    {
+        "author_id": 253,
+        "last_name": "Mizushima",
+        "first_name": "T.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 254,
+        "last_name": "Machida",
+        "first_name": "K.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 255,
+        "last_name": "Makovetskii",
+        "first_name": "D. N.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 256,
+        "last_name": "Coupet",
+        "first_name": "Bernard",
+        "middle_name": ""
+    },
+    {
+        "author_id": 257,
+        "last_name": "Sukhov",
+        "first_name": "Alexandre",
+        "middle_name": ""
+    },
+    {
+        "author_id": 258,
+        "last_name": "Tumanov",
+        "first_name": "Alexander",
+        "middle_name": ""
+    },
+    {
+        "author_id": 259,
+        "last_name": "Reissig",
+        "first_name": "Michael",
+        "middle_name": ""
+    },
+    {
+        "author_id": 260,
+        "last_name": "Wirth",
+        "first_name": "Jens",
+        "middle_name": ""
+    },
+    {
+        "author_id": 261,
+        "last_name": "Yang",
+        "first_name": "Huan",
+        "middle_name": ""
+    },
+    {
+        "author_id": 262,
+        "last_name": "Jia",
+        "first_name": "Ying",
+        "middle_name": ""
+    },
+    {
+        "author_id": 263,
+        "last_name": "Shan",
+        "first_name": "Lei",
+        "middle_name": ""
+    },
+    {
+        "author_id": 264,
+        "last_name": "Zhang",
+        "first_name": "Yingzi",
+        "middle_name": ""
+    },
+    {
+        "author_id": 265,
+        "last_name": "Wen",
+        "first_name": "Hai-Hu",
+        "middle_name": ""
+    },
+    {
+        "author_id": 266,
+        "last_name": "Zhuang",
+        "first_name": "Chenggang",
+        "middle_name": ""
+    },
+    {
+        "author_id": 267,
+        "last_name": "Liu",
+        "first_name": "Zikui",
+        "middle_name": ""
+    },
+    {
+        "author_id": 268,
+        "last_name": "Li",
+        "first_name": "Qi",
+        "middle_name": ""
+    },
+    {
+        "author_id": 269,
+        "last_name": "Cui",
+        "first_name": "Yi",
+        "middle_name": ""
+    },
+    {
+        "author_id": 270,
+        "last_name": "Xi",
+        "first_name": "Xiaoxing",
+        "middle_name": ""
+    },
+    {
+        "author_id": 271,
+        "last_name": "Dumas",
+        "first_name": "Randy K.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 272,
+        "last_name": "Li",
+        "first_name": "Chang-Peng",
+        "middle_name": ""
+    },
+    {
+        "author_id": 273,
+        "last_name": "Roshchin",
+        "first_name": "Igor V.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 274,
+        "last_name": "Schuller",
+        "first_name": "Ivan K.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 275,
+        "last_name": "Liu",
+        "first_name": "Kai",
+        "middle_name": ""
+    },
+    {
+        "author_id": 276,
+        "last_name": "Evans",
+        "first_name": "P. A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 277,
+        "last_name": "Beardmore",
+        "first_name": "A. P.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 278,
+        "last_name": "Page",
+        "first_name": "K. L.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 279,
+        "last_name": "Tyler",
+        "first_name": "L. G.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 280,
+        "last_name": "Osborne",
+        "first_name": "J. P.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 281,
+        "last_name": "Goad",
+        "first_name": "M. R.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 282,
+        "last_name": "O'Brien",
+        "first_name": "P. T.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 283,
+        "last_name": "Vetere",
+        "first_name": "L.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 284,
+        "last_name": "Racusin",
+        "first_name": "J.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 285,
+        "last_name": "Morris",
+        "first_name": "D.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 286,
+        "last_name": "Burrows",
+        "first_name": "D. N.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 287,
+        "last_name": "Capalbi",
+        "first_name": "M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 288,
+        "last_name": "Perri",
+        "first_name": "M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 289,
+        "last_name": "Gehrels",
+        "first_name": "N.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 290,
+        "last_name": "Romano",
+        "first_name": "P.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 291,
+        "last_name": "Sorrentino",
+        "first_name": "Alfonso",
+        "middle_name": ""
+    },
+    {
+        "author_id": 292,
+        "last_name": "Bouarroudj",
+        "first_name": "Sofiane",
+        "middle_name": ""
+    },
+    {
+        "author_id": 293,
+        "last_name": "Grozman",
+        "first_name": "Pavel",
+        "middle_name": ""
+    },
+    {
+        "author_id": 294,
+        "last_name": "Leites",
+        "first_name": "Dimitry",
+        "middle_name": ""
+    },
+    {
+        "author_id": 295,
+        "last_name": "Zheng-Johansson",
+        "first_name": "J. X.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 296,
+        "last_name": "Khrapai",
+        "first_name": "V. S.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 297,
+        "last_name": "Ludwig",
+        "first_name": "S.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 298,
+        "last_name": "Kotthaus",
+        "first_name": "J. P.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 299,
+        "last_name": "Tranitz",
+        "first_name": "H. P.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 300,
+        "last_name": "Wegscheider",
+        "first_name": "W.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 301,
+        "last_name": "Lutz",
+        "first_name": "D.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 302,
+        "last_name": "Sturm",
+        "first_name": "E.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 303,
+        "last_name": "Tacconi",
+        "first_name": "L. J.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 304,
+        "last_name": "Valiante",
+        "first_name": "E.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 305,
+        "last_name": "Schweitzer",
+        "first_name": "M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 306,
+        "last_name": "Netzer",
+        "first_name": "H.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 307,
+        "last_name": "Maiolino",
+        "first_name": "R.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 308,
+        "last_name": "Andreani",
+        "first_name": "P.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 309,
+        "last_name": "Shemmer",
+        "first_name": "O.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 310,
+        "last_name": "Veilleux",
+        "first_name": "S.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 311,
+        "last_name": "Chaudhuri",
+        "first_name": "A. K.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 312,
+        "last_name": "Menicucci",
+        "first_name": "Nicolas C.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 313,
+        "last_name": "Milburn",
+        "first_name": "G. J.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 314,
+        "last_name": "Weng",
+        "first_name": "Zihua",
+        "middle_name": ""
+    },
+    {
+        "author_id": 315,
+        "last_name": "Tiwari",
+        "first_name": "S C",
+        "middle_name": ""
+    },
+    {
+        "author_id": 316,
+        "last_name": "Barausse",
+        "first_name": "Enrico",
+        "middle_name": ""
+    },
+    {
+        "author_id": 317,
+        "last_name": "Hughes",
+        "first_name": "Scott A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 318,
+        "last_name": "Rezzolla",
+        "first_name": "Luciano",
+        "middle_name": ""
+    },
+    {
+        "author_id": 319,
+        "last_name": "Lanzoni",
+        "first_name": "B.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 320,
+        "last_name": "Dalessandro",
+        "first_name": "E.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 321,
+        "last_name": "Ferraro",
+        "first_name": "F. R.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 322,
+        "last_name": "Mancini",
+        "first_name": "C.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 323,
+        "last_name": "Beccari",
+        "first_name": "G.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 324,
+        "last_name": "Rood",
+        "first_name": "R. T.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 325,
+        "last_name": "Mapelli",
+        "first_name": "M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 326,
+        "last_name": "Sigurdsson",
+        "first_name": "S.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 327,
+        "last_name": "Cadoni",
+        "first_name": "Mariano",
+        "middle_name": ""
+    },
+    {
+        "author_id": 330,
+        "last_name": "Kaupuzs",
+        "first_name": "J.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 328,
+        "last_name": "Molodtsov",
+        "first_name": "S. V.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 329,
+        "last_name": "Zinovjev",
+        "first_name": "G. M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 333,
+        "last_name": "Podolsky",
+        "first_name": "D.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 334,
+        "last_name": "Enqvist",
+        "first_name": "K.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 335,
+        "last_name": "Date",
+        "first_name": "Ghanashyam",
+        "middle_name": ""
+    },
+    {
+        "author_id": 336,
+        "last_name": "Parker",
+        "first_name": "N. G.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 337,
+        "last_name": "Jackson",
+        "first_name": "B.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 338,
+        "last_name": "Martin",
+        "first_name": "A. M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 339,
+        "last_name": "Adams",
+        "first_name": "C. S.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 340,
+        "last_name": "Sudha",
+        "first_name": "",
+        "middle_name": ""
+    },
+    {
+        "author_id": 341,
+        "last_name": "Rao",
+        "first_name": "A. V. Gopala",
+        "middle_name": ""
+    },
+    {
+        "author_id": 342,
+        "last_name": "Devi",
+        "first_name": "A. R. Usha",
+        "middle_name": ""
+    },
+    {
+        "author_id": 343,
+        "last_name": "Rajagopal",
+        "first_name": "A. K.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 344,
+        "last_name": "Jiang",
+        "first_name": "J. H.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 345,
+        "last_name": "Wang",
+        "first_name": "Y. Y.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 346,
+        "last_name": "Wu",
+        "first_name": "M. W.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 347,
+        "last_name": "Gu",
+        "first_name": "Bo",
+        "middle_name": ""
+    },
+    {
+        "author_id": 348,
+        "last_name": "Su",
+        "first_name": "Gang",
+        "middle_name": ""
+    },
+    {
+        "author_id": 350,
+        "last_name": "Abrosimov",
+        "first_name": "V. I.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 351,
+        "last_name": "Brink",
+        "first_name": "D. M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 352,
+        "last_name": "Dellafiore",
+        "first_name": "A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 353,
+        "last_name": "Matera",
+        "first_name": "F.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 354,
+        "last_name": "Ahmad",
+        "first_name": "Mushfiq",
+        "middle_name": ""
+    },
+    {
+        "author_id": 355,
+        "last_name": "Eichstaedt",
+        "first_name": "Fabian",
+        "middle_name": ""
+    },
+    {
+        "author_id": 356,
+        "last_name": "Leupold",
+        "first_name": "Stefan",
+        "middle_name": ""
+    },
+    {
+        "author_id": 357,
+        "last_name": "Mosel",
+        "first_name": "Ulrich",
+        "middle_name": ""
+    },
+    {
+        "author_id": 358,
+        "last_name": "Muehlich",
+        "first_name": "Pascal",
+        "middle_name": ""
+    },
+    {
+        "author_id": 359,
+        "last_name": "He",
+        "first_name": "Han",
+        "middle_name": ""
+    },
+    {
+        "author_id": 360,
+        "last_name": "Wang",
+        "first_name": "Huaning",
+        "middle_name": ""
+    },
+    {
+        "author_id": 361,
+        "last_name": "de Haro",
+        "first_name": "M. Lopez",
+        "middle_name": ""
+    },
+    {
+        "author_id": 362,
+        "last_name": "Yuste",
+        "first_name": "S. B.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 363,
+        "last_name": "Santos",
+        "first_name": "A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 364,
+        "last_name": "Zhao",
+        "first_name": "Fangcui",
+        "middle_name": ""
+    },
+    {
+        "author_id": 365,
+        "last_name": "Yang",
+        "first_name": "Huijie",
+        "middle_name": ""
+    },
+    {
+        "author_id": 366,
+        "last_name": "Wang",
+        "first_name": "Binghong",
+        "middle_name": ""
+    },
+    {
+        "author_id": 367,
+        "last_name": "Cercellier",
+        "first_name": "H.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 368,
+        "last_name": "Monney",
+        "first_name": "C.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 369,
+        "last_name": "Clerc",
+        "first_name": "F.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 370,
+        "last_name": "Battaglia",
+        "first_name": "C.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 371,
+        "last_name": "Despont",
+        "first_name": "L.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 372,
+        "last_name": "Garnier",
+        "first_name": "M. G.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 373,
+        "last_name": "Beck",
+        "first_name": "H.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 374,
+        "last_name": "Patthey",
+        "first_name": "L.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 375,
+        "last_name": "Berger",
+        "first_name": "H.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 376,
+        "last_name": "Aebi",
+        "first_name": "P.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 377,
+        "last_name": "Stasinska",
+        "first_name": "G.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 378,
+        "last_name": "Tenorio-Tagle",
+        "first_name": "G.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 379,
+        "last_name": "Rodriguez",
+        "first_name": "M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 380,
+        "last_name": "Henney",
+        "first_name": "W. J.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 381,
+        "last_name": "Ravindran",
+        "first_name": "T. R.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 382,
+        "last_name": "Arora",
+        "first_name": "A. K.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 383,
+        "last_name": "Chandra",
+        "first_name": "Sharat",
+        "middle_name": ""
+    },
+    {
+        "author_id": 384,
+        "last_name": "Valsakumar",
+        "first_name": "M. C.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 385,
+        "last_name": "Shekar",
+        "first_name": "N. V. Chandra",
+        "middle_name": ""
+    },
+    {
+        "author_id": 100,
+        "last_name": "Grabec",
+        "first_name": "I.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 387,
+        "last_name": "Rosati",
+        "first_name": "Lilia",
+        "middle_name": ""
+    },
+    {
+        "author_id": 388,
+        "last_name": "Abu-Hamed",
+        "first_name": "Mohammad",
+        "middle_name": ""
+    },
+    {
+        "author_id": 390,
+        "last_name": "Garcia-Etxebarria",
+        "first_name": "Inaki",
+        "middle_name": ""
+    },
+    {
+        "author_id": 391,
+        "last_name": "Saad",
+        "first_name": "Fouad",
+        "middle_name": ""
+    },
+    {
+        "author_id": 392,
+        "last_name": "Uranga",
+        "first_name": "Angel M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 393,
+        "last_name": "Eeg",
+        "first_name": "Jan O.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 394,
+        "last_name": "Dempsey",
+        "first_name": "Paul",
+        "middle_name": ""
+    },
+    {
+        "author_id": 395,
+        "last_name": "Duffy",
+        "first_name": "Peter",
+        "middle_name": ""
+    },
+    {
+        "author_id": 396,
+        "last_name": "Calucci",
+        "first_name": "Giorgio",
+        "middle_name": ""
+    },
+    {
+        "author_id": 397,
+        "last_name": "Fausti",
+        "first_name": "Daniele",
+        "middle_name": ""
+    },
+    {
+        "author_id": 398,
+        "last_name": "Lummen",
+        "first_name": "Tom T. A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 399,
+        "last_name": "Angelescu",
+        "first_name": "Cosmina",
+        "middle_name": ""
+    },
+    {
+        "author_id": 400,
+        "last_name": "Macovez",
+        "first_name": "Roberto",
+        "middle_name": ""
+    },
+    {
+        "author_id": 401,
+        "last_name": "Luzon",
+        "first_name": "Javier",
+        "middle_name": ""
+    },
+    {
+        "author_id": 402,
+        "last_name": "Broer",
+        "first_name": "Ria",
+        "middle_name": ""
+    },
+    {
+        "author_id": 403,
+        "last_name": "Rudolf",
+        "first_name": "Petra",
+        "middle_name": ""
+    },
+    {
+        "author_id": 404,
+        "last_name": "van Loosdrecht",
+        "first_name": "Paul H. M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 405,
+        "last_name": "Tristan",
+        "first_name": "Natalia",
+        "middle_name": ""
+    },
+    {
+        "author_id": 406,
+        "last_name": "Buchner",
+        "first_name": "Bernd",
+        "middle_name": ""
+    },
+    {
+        "author_id": 407,
+        "last_name": "van Smaalen",
+        "first_name": "Sander",
+        "middle_name": ""
+    },
+    {
+        "author_id": 408,
+        "last_name": "Moller",
+        "first_name": "Angela",
+        "middle_name": ""
+    },
+    {
+        "author_id": 409,
+        "last_name": "Meyer",
+        "first_name": "Gerd",
+        "middle_name": ""
+    },
+    {
+        "author_id": 410,
+        "last_name": "Taetz",
+        "first_name": "Timo",
+        "middle_name": ""
+    },
+    {
+        "author_id": 411,
+        "last_name": "Aharonian",
+        "first_name": "F.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 412,
+        "last_name": "Shawish",
+        "first_name": "S. El",
+        "middle_name": ""
+    },
+    {
+        "author_id": 413,
+        "last_name": "Ramsak",
+        "first_name": "A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 414,
+        "last_name": "Bonca",
+        "first_name": "J.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 415,
+        "last_name": "Takenaka",
+        "first_name": "H.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 416,
+        "last_name": "Singh",
+        "first_name": "D. J.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 417,
+        "last_name": "Amendola",
+        "first_name": "Luca",
+        "middle_name": ""
+    },
+    {
+        "author_id": 418,
+        "last_name": "Charmousis",
+        "first_name": "Christos",
+        "middle_name": ""
+    },
+    {
+        "author_id": 419,
+        "last_name": "Davis",
+        "first_name": "Stephen C.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 420,
+        "last_name": "Huang",
+        "first_name": "Jing",
+        "middle_name": ""
+    },
+    {
+        "author_id": 421,
+        "last_name": "Li",
+        "first_name": "Qunxiang",
+        "middle_name": ""
+    },
+    {
+        "author_id": 422,
+        "last_name": "Ren",
+        "first_name": "Hao",
+        "middle_name": ""
+    },
+    {
+        "author_id": 423,
+        "last_name": "Su",
+        "first_name": "Haibin",
+        "middle_name": ""
+    },
+    {
+        "author_id": 424,
+        "last_name": "Shi",
+        "first_name": "Q. W.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 425,
+        "last_name": "Yang",
+        "first_name": "Jinlong",
+        "middle_name": ""
+    },
+    {
+        "author_id": 426,
+        "last_name": "Greilich",
+        "first_name": "A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 427,
+        "last_name": "Wiemann",
+        "first_name": "M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 428,
+        "last_name": "Hernandez",
+        "first_name": "F. G. G.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 429,
+        "last_name": "Yakovlev",
+        "first_name": "D. R.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 430,
+        "last_name": "Yugova",
+        "first_name": "I. A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 431,
+        "last_name": "Shabaev",
+        "first_name": "A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 432,
+        "last_name": "Efros",
+        "first_name": "Al. L.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 433,
+        "last_name": "Reuter",
+        "first_name": "D.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 434,
+        "last_name": "Wieck",
+        "first_name": "A. D.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 435,
+        "last_name": "Bayer",
+        "first_name": "M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 436,
+        "last_name": "Holst",
+        "first_name": "Bastian",
+        "middle_name": ""
+    },
+    {
+        "author_id": 437,
+        "last_name": "Nettelmann",
+        "first_name": "Nadine",
+        "middle_name": ""
+    },
+    {
+        "author_id": 438,
+        "last_name": "Redmer",
+        "first_name": "Ronald",
+        "middle_name": ""
+    },
+    {
+        "author_id": 439,
+        "last_name": "Zavatta",
+        "first_name": "Alessandro",
+        "middle_name": ""
+    },
+    {
+        "author_id": 440,
+        "last_name": "Parigi",
+        "first_name": "Valentina",
+        "middle_name": ""
+    },
+    {
+        "author_id": 441,
+        "last_name": "Bellini",
+        "first_name": "Marco",
+        "middle_name": ""
+    },
+    {
+        "author_id": 442,
+        "last_name": "Rodin",
+        "first_name": "Vadim",
+        "middle_name": ""
+    },
+    {
+        "author_id": 443,
+        "last_name": "Goh",
+        "first_name": "Joel",
+        "middle_name": ""
+    },
+    {
+        "author_id": 444,
+        "last_name": "Fushman",
+        "first_name": "Ilya",
+        "middle_name": ""
+    },
+    {
+        "author_id": 445,
+        "last_name": "Englund",
+        "first_name": "Dirk",
+        "middle_name": ""
+    },
+    {
+        "author_id": 446,
+        "last_name": "Vuckovic",
+        "first_name": "Jelena",
+        "middle_name": ""
+    },
+    {
+        "author_id": 447,
+        "last_name": "Kuch",
+        "first_name": "W.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 448,
+        "last_name": "Offi",
+        "first_name": "F.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 449,
+        "last_name": "Chelaru",
+        "first_name": "L. I.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 450,
+        "last_name": "Wang",
+        "first_name": "J.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 451,
+        "last_name": "Fukumoto",
+        "first_name": "K.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 452,
+        "last_name": "Kotsugi",
+        "first_name": "M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 453,
+        "last_name": "Kirschner",
+        "first_name": "J.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 454,
+        "last_name": "Kunes",
+        "first_name": "J.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 455,
+        "last_name": "Takahashi",
+        "first_name": "Ryo",
+        "middle_name": ""
+    },
+    {
+        "author_id": 456,
+        "last_name": "Tanimoto",
+        "first_name": "Morimitsu",
+        "middle_name": ""
+    },
+    {
+        "author_id": 457,
+        "last_name": "Worseck",
+        "first_name": "G.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 458,
+        "last_name": "Fechner",
+        "first_name": "C.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 459,
+        "last_name": "Wisotzki",
+        "first_name": "L.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 460,
+        "last_name": "Dall'Aglio",
+        "first_name": "A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 461,
+        "last_name": "Elliott",
+        "first_name": "Tanya M",
+        "middle_name": ""
+    },
+    {
+        "author_id": 462,
+        "last_name": "Wheater",
+        "first_name": "John F",
+        "middle_name": ""
+    },
+    {
+        "author_id": 463,
+        "last_name": "Birget",
+        "first_name": "J. C.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 464,
+        "last_name": "Konishi",
+        "first_name": "E.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 465,
+        "last_name": "Minorikawa",
+        "first_name": "Y.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 466,
+        "last_name": "Galkin",
+        "first_name": "V. I.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 467,
+        "last_name": "Ishiwata",
+        "first_name": "M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 468,
+        "last_name": "Nakamura",
+        "first_name": "I.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 469,
+        "last_name": "Takahashit",
+        "first_name": "N.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 470,
+        "last_name": "Kato",
+        "first_name": "M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 471,
+        "last_name": "Misaki",
+        "first_name": "A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 472,
+        "last_name": "Virnau",
+        "first_name": "Peter",
+        "middle_name": ""
+    },
+    {
+        "author_id": 473,
+        "last_name": "Mirny",
+        "first_name": "Leonid A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 474,
+        "last_name": "Kardar",
+        "first_name": "Mehran",
+        "middle_name": ""
+    },
+    {
+        "author_id": 475,
+        "last_name": "O'Neil",
+        "first_name": "K.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 476,
+        "last_name": "Oey",
+        "first_name": "S.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 477,
+        "last_name": "Bothun",
+        "first_name": "G.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 478,
+        "last_name": "Yuan",
+        "first_name": "Shengjun",
+        "middle_name": ""
+    },
+    {
+        "author_id": 479,
+        "last_name": "De Raedt",
+        "first_name": "Hans",
+        "middle_name": ""
+    },
+    {
+        "author_id": 480,
+        "last_name": "Miyashita",
+        "first_name": "Seiji",
+        "middle_name": ""
+    },
+    {
+        "author_id": 481,
+        "last_name": "Gurvitz",
+        "first_name": "S. A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 482,
+        "last_name": "Mozyrsky",
+        "first_name": "D.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 483,
+        "last_name": "Drinfeld",
+        "first_name": "Vladimir",
+        "middle_name": ""
+    },
+    {
+        "author_id": 389,
+        "last_name": "Gelaki",
+        "first_name": "Shlomo",
+        "middle_name": ""
+    },
+    {
+        "author_id": 485,
+        "last_name": "Nikshych",
+        "first_name": "Dmitri",
+        "middle_name": ""
+    },
+    {
+        "author_id": 486,
+        "last_name": "Ostrik",
+        "first_name": "Victor",
+        "middle_name": ""
+    },
+    {
+        "author_id": 487,
+        "last_name": "Piesciuk",
+        "first_name": "Karolina",
+        "middle_name": ""
+    },
+    {
+        "author_id": 488,
+        "last_name": "Praszalowicz",
+        "first_name": "Michal",
+        "middle_name": ""
+    },
+    {
+        "author_id": 489,
+        "last_name": "Schober",
+        "first_name": "Steffen",
+        "middle_name": ""
+    },
+    {
+        "author_id": 490,
+        "last_name": "Bossert",
+        "first_name": "Martin",
+        "middle_name": ""
+    },
+    {
+        "author_id": 491,
+        "last_name": "Hilario",
+        "first_name": "L. M. Leon",
+        "middle_name": ""
+    },
+    {
+        "author_id": 492,
+        "last_name": "Bruchhausen",
+        "first_name": "A.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 493,
+        "last_name": "Lobos",
+        "first_name": "A. M.",
+        "middle_name": ""
+    },
+    {
+        "author_id": 494,
+        "last_name": "Aligia",
+        "first_name": "A. A.",
+        "middle_name": ""
+    }
+]
