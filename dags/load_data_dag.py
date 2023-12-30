@@ -1,8 +1,34 @@
-from airflow import DAG
-from airflow.operators.python_operator import PythonOperator
 from datetime import datetime, timedelta
-from psycopg2.extras import execute_values
+from airflow import DAG
+from airflow.operators.python import PythonOperator
+import json
+import os
+import psycopg2
 
+def get_db_connection():
+    return psycopg2.connect(
+        dbname='arxiv',
+        user='admin',
+        password='admin',
+        host='arxiv_postgres'
+    )
+
+default_args = {
+    'owner': 'airflow',
+    'depends_on_past': False,
+    'start_date': datetime(2023, 1, 1),
+    'email_on_failure': False,
+    'email_on_retry': False,
+    'retries': 1,
+    'retry_delay': timedelta(minutes=5),
+}
+
+dag = DAG(
+    'import_data',
+    default_args=default_args,
+    description='Import data to postgres database',
+    schedule_interval=timedelta(days=1),
+)
 
 # Function to insert authors and return their IDs
 def insert_authors(cursor, authors_parsed):
@@ -53,106 +79,82 @@ def insert_categories(cursor, categories):
                 conn.rollback()
     return category_ids
 
-def process_record(cursor, record):
-    # Extract author data and insert, returning IDs
-    authors_parsed = record.get('authors_parsed', [])
-    author_ids = insert_authors(cursor, authors_parsed)
-
-    # Extract category data and insert, returning IDs
-    categories = record.get('categories', '').split()
-    category_ids = insert_categories(cursor, categories)
-
-    # Extract paper details
-    paper_id = record['id']
-    title = record.get('title')
-    submitter = record.get('submitter')
-    comments = record.get('comments')
-    journal_ref = record.get('journal-ref')
-    doi = record.get('doi')
-    report_no = record.get('report-no')
-    abstract = record.get('abstract')
-    update_date = record.get('update_date')
-
-    # Insert paper details into papers table
-    cursor.execute(
-        """
-        INSERT INTO papers (paper_id, title, submitter, comments, journal_ref, doi, report_no, abstract, update_date)
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
-        ON CONFLICT (paper_id) DO NOTHING;
-        """,
-        (paper_id, title, submitter, comments, journal_ref, doi, report_no, abstract, update_date)
-    )
-
-    # Insert relationships into paper_authors
-    for author_id in author_ids:
-        cursor.execute(
-            "INSERT INTO paper_authors (paper_id, author_id) VALUES (%s, %s) ON CONFLICT DO NOTHING;",
-            (paper_id, author_id)
-        )
-
-    # Insert relationships into paper_categories
-    for category_id in category_ids:
-        cursor.execute(
-            "INSERT INTO paper_categories (paper_id, category_id) VALUES (%s, %s) ON CONFLICT DO NOTHING;",
-            (paper_id, category_id)
-        )
-
-
-# Function to load data from JSON record
-import json
-import psycopg2
-
-# Main function to be called by Airflow
-def load_data():
-    # Establish database connection
+def read_and_process_json_file():
+    file_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'full_data.json')
+    conn = get_db_connection()
     try:
-        with psycopg2.connect(
-            dbname='arxiv',
-            user='admin',
-            password='admin',
-            host='host.docker.internal'
-        ) as conn:
-            with conn.cursor() as cursor:
-                with open('archive/data.json', 'r', encoding='utf-8') as file:
-                    for line in file:
-                        try:
-                            record = json.loads(line)
-                            process_record(cursor, record)
-                        except json.JSONDecodeError as e:
-                            print(f"Failed to parse JSON line: {e}")
-                        except Exception as e:
-                            print(f"An error occurred: {e}")
-    except psycopg2.Error as e:
-        print(f"Error connecting to the database: {e}")
-        raise
+        with open(file_path, 'r') as file:
+            record_count = 0
+            for line in file:
+                if record_count < 10:
+                    data = json.loads(line)
+                    # Insert into papers table
+                    with conn.cursor() as cursor:
+                        cursor.execute("""
+                            INSERT INTO papers (paper_id, title, submitter, comments, journal_ref, doi, report_no, abstract, update_date)
+                            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
+                            ON CONFLICT (paper_id) DO NOTHING;
+                        """, (
+                            data['id'],
+                            data['title'],
+                            data['submitter'],
+                            data['comments'],
+                            data['journal-ref'],
+                            data['doi'],
+                            data['report-no'],
+                            data['abstract'],
+                            datetime.strptime(data['update_date'], "%Y-%m-%d").date() if data['update_date'] else None
+                        ))
 
-# Airflow DAG and task definition
-from airflow import DAG
-from airflow.operators.python_operator import PythonOperator
-from datetime import datetime, timedelta
+                        # Insert authors and get their IDs
+                        author_ids = insert_authors(cursor, data.get('authors_parsed', []))
 
-default_args = {
-    'owner': 'airflow',
-    'depends_on_past': False,
-    'start_date': datetime(2023, 1, 1),
-    'email': ['your_email@example.com'],
-    'email_on_failure': False,
-    'email_on_retry': False,
-    'retries': 1,
-    'retry_delay': timedelta(minutes=5),
-}
+                        # Insert categories and get their IDs
+                        categories = data.get('categories', '').split()
+                        category_ids = insert_categories(cursor, categories)
 
-dag = DAG(
-    'load_data_dag',
-    default_args=default_args,
-    description='A simple DAG to load data',
-    schedule_interval=timedelta(days=1),
-)
+                        # Insert paper-authors relationships
+                        for author_id in author_ids:
+                            cursor.execute(
+                                """
+                                INSERT INTO paper_authors (paper_id, author_id)
+                                VALUES (%s, %s)
+                                ON CONFLICT DO NOTHING;
+                                """,
+                                (data['id'], author_id)
+                            )
 
-load_data_task = PythonOperator(
-    task_id='load_data',
-    python_callable=load_data,
+                        # Insert paper-categories relationships
+                        for category_id in category_ids:
+                            cursor.execute(
+                                """
+                                INSERT INTO paper_categories (paper_id, category_id)
+                                VALUES (%s, %s)
+                                ON CONFLICT DO NOTHING;
+                                """,
+                                (data['id'], category_id)
+                            )
+
+                    conn.commit()
+                    record_count += 1
+                else:
+                    break
+    except FileNotFoundError:
+        print(f"The file {file_path} was not found.")
+    except json.JSONDecodeError:
+        print(f"Error decoding JSON from {file_path}.")
+    except Exception as e:
+        print(f"Error reading JSON file: {e}")
+    finally:
+        conn.close()
+
+
+
+t1 = PythonOperator(
+    task_id='read_and_process_json_file',
+    python_callable=read_and_process_json_file,  # Corrected to the proper function name
     dag=dag,
 )
 
-load_data_task
+# Set the order of execution
+t1

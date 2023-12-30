@@ -1,0 +1,42 @@
+[
+    {
+        "category_id": 1,
+        "category_name": "hep-ph"
+    },
+    {
+        "category_id": 2,
+        "category_name": "math.CO"
+    },
+    {
+        "category_id": 3,
+        "category_name": "cs.CG"
+    },
+    {
+        "category_id": 4,
+        "category_name": "physics.gen-ph"
+    },
+    {
+        "category_id": 6,
+        "category_name": "math.CA"
+    },
+    {
+        "category_id": 7,
+        "category_name": "math.FA"
+    },
+    {
+        "category_id": 9,
+        "category_name": "cond-mat.mes-hall"
+    },
+    {
+        "category_id": 10,
+        "category_name": "gr-qc"
+    },
+    {
+        "category_id": 13,
+        "category_name": "cond-mat.mtrl-sci"
+    },
+    {
+        "category_id": 15,
+        "category_name": "astro-ph"
+    }
+]
